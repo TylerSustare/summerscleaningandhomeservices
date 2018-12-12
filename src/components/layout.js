@@ -6,22 +6,22 @@ import Footer from "./Footer";
 
 class Template extends React.Component {
     constructor(props) {
-      super(props);
-      this.state = {
-        loading: 'is-loading'
-      }
+        super(props);
+        this.state = {
+            loading: 'is-loading'
+        }
     }
 
-    componentDidMount () {
-      this.timeoutId = setTimeout(() => {
-          this.setState({loading: ''});
-      }, 100);
+    componentDidMount() {
+        this.timeoutId = setTimeout(() => {
+            this.setState({ loading: '' });
+        }, 100);
     }
 
-    componentWillUnmount () {
-      if (this.timeoutId) {
-          clearTimeout(this.timeoutId);
-      }
+    componentWillUnmount() {
+        if (this.timeoutId) {
+            clearTimeout(this.timeoutId);
+        }
     }
 
     render() {
@@ -29,7 +29,7 @@ class Template extends React.Component {
 
         return (
             <div className={`body ${this.state.loading}`}>
-                <Header />
+                {/* <Header /> */}
                 {children}
                 <Footer />
             </div>

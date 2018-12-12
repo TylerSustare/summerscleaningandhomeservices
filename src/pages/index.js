@@ -8,6 +8,11 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
+import LogoA from '../assets/images/Logo.png';
+import LogoB from '../assets/images/SummersCleaningBC.png';
+const L = Math.floor(Math.random() * 2)
+if (L === 0) {
+}
 
 class Homepage extends React.Component {
     render() {
@@ -20,6 +25,14 @@ class Homepage extends React.Component {
                 <section>
                     <div className="grid-wrapper">
                         <div className="col-12">
+                            {
+                                L === 0
+                                    ?
+                                    <span className="image fit"><img src={LogoA} alt="" /></span>
+                                    :
+                                    <span className="image fit"><img src={LogoB} alt="" /></span>
+
+                            }
                             <Carousel
                                 autoPlay={true}
                                 interval={2500}
