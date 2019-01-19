@@ -15,13 +15,13 @@ if (L === 0) {
 }
 
 class Homepage extends React.Component {
-    /*no payment*/
+    /* no payment
     render() {
         return (
             <img src="https://www.jotajoti.info/wp-content/uploads/2018/08/under-construction_geek_man_01.png" width="500px" />
         )
-    }
-    /* payment
+    }*/
+    /* payment */
     render() {
         const siteTitle = "Summer's Cleaning and Home Services";
 
@@ -130,7 +130,7 @@ class Homepage extends React.Component {
                 </section>
             </Layout>
         );
-    }*/
+    } */
 }
 
 export default Homepage;
