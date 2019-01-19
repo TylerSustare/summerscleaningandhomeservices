@@ -130,7 +130,7 @@ class Homepage extends React.Component {
                 </section>
             </Layout>
         );
-    } */
+    }
 }
 
 export default Homepage;
