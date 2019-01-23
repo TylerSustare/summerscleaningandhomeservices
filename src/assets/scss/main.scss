@@ -28,6 +28,11 @@
 
 /* Basic */
 
+	.centre{
+		display: flex;
+		justify-content: center;
+	}
+
 	body {
 		background: _palette(bg);
 
@@ -506,6 +511,10 @@
 				width: 100%;
 			}
 		}
+	}
+
+	.rotate{
+		transform: rotate(90deg)
 	}
 
 /* List */
