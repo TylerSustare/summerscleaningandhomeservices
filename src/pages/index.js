@@ -14,11 +14,17 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
+import image1 from '../assets/images/image1.jpeg'
+import image2 from '../assets/images/image2.jpeg'
+import image3 from '../assets/images/image3.jpeg'
+import image4 from '../assets/images/image4.jpeg'
+import image5 from '../assets/images/image5.jpeg'
+import image6 from '../assets/images/image6.jpeg'
+import image7 from '../assets/images/image7.jpeg'
+import image8 from '../assets/images/image8.jpeg'
+import image9 from '../assets/images/image9.jpeg'
+import image10 from '../assets/images/image10.jpeg'
 import LogoA from '../assets/images/Logo.png';
-import LogoB from '../assets/images/SummersCleaningBC.png';
-const L = Math.floor(Math.random() * 2)
-if (L === 0) {
-}
 
 class Homepage extends React.Component {
     /* no payment
@@ -49,7 +55,9 @@ class Homepage extends React.Component {
                                     dynamicHeight={true}
                                     showArrows={false}
                                     width="50vw"
+                                    showThumbs={false}
                                 >
+                                    {/* before and after pictures */}
                                     <div className="rotate">
                                         <img src={car1} />
                                     </div>
@@ -67,6 +75,31 @@ class Homepage extends React.Component {
                                     </div>
                                     <div className="rotate">
                                         <img src={car6} />
+                                    </div>
+                                    {/* some pictures of the inside of a house?  */}
+                                    <div className="rotate">
+                                        <img src={image3} />
+                                    </div>
+                                    <div className="rotate">
+                                        <img src={image4} />
+                                    </div>
+                                    <div className="rotate">
+                                        <img src={image5} />
+                                    </div>
+                                    <div className="rotate">
+                                        <img src={image6} />
+                                    </div>
+                                    <div className="rotate">
+                                        <img src={image7} />
+                                    </div>
+                                    <div className="rotate">
+                                        <img src={image8} />
+                                    </div>
+                                    <div className="rotate">
+                                        <img src={image9} />
+                                    </div>
+                                    <div className="rotate">
+                                        <img src={image10} />
                                     </div>
                                 </Carousel>
                             </div>
@@ -90,7 +123,9 @@ class Homepage extends React.Component {
 </p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <div className="rotate">
+                                <span className="image fit"><img src={image1} alt="" /></span>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -98,7 +133,9 @@ class Homepage extends React.Component {
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <div className="rotate">
+                                <span className="image fit"><img src={image2} alt="" /></span>
+                            </div>
                         </div>
                         <div className="col-6">
                             <header className="major">
@@ -119,17 +156,20 @@ class Homepage extends React.Component {
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
+                            {/* deleted per content review by Brittany Sustare */}
+                            {/* <span className="image fit"><img src={pic02} alt="" /></span> */}
                             <h3>Dacyl Winterbottom</h3>
                             <p>Came home after a 12 hour shift to a sparkling clean house!! Summer and her team have made my home shine!! their attention to detail is impeccable!! Will be using her services again!! Highly recommend!!</p>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
+                            {/* deleted per content review by Brittany Sustare */}
+                            {/* <span className="image fit"><img src={pic03} alt="" /></span> */}
                             <h3>Kendra Jarrett <br />Mom and Owner of Stiletto Salon</h3>
                             <p>I love coming home to a clean house! Working and being a new mom makes for a busy life and cleaning in my spare time is not something I enjoy doing. Summer's Cleaning has done a fantastic job cleaning my home for the last two years! They are trustworthy and consistent. Their service is worth every penny!! Let the professionals do the work!!</p>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
+                            {/* deleted per content review by Brittany Sustare */}
+                            {/* <span className="image fit"><img src={pic04} alt="" /></span> */}
                             <h3>Shona Lyster <br />Client since 2015</h3>
                             <p>Summer and Jason do a great job cleaning and quality checking their work! I trust them and have recommended their services to friends. They are hard workers who take pride in what they do. I wouldn't use anyone else!</p>
                         </div>
