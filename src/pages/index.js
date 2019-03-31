@@ -46,7 +46,7 @@ class Homepage extends React.Component {
                     {/* <div className="column"> */}
                     {
                         <div className="outer">
-                            <div className="centre"><img className="centre" src={LogoA} alt="logo" /></div>
+                            <div className="logoCentre"><img className="logoCentre" src={LogoA} alt="logo" /></div>
                         </div>
                     }
                     <div className="outer">
@@ -85,7 +85,7 @@ class Homepage extends React.Component {
 
                 <section id="four" className="main style2 special">
                     <header className="minor">
-                        <h3> 541-815-9104 <br /> summerscleaningno.1@gmail.com</h3>
+                        <h3> <a href="tel:541-815-9104"> 541-815-9104 </a><br /> <a href="mailto:summerscleaningno.1@gmail.com"> summerscleaningno.1@gmail.com</a></h3>
                     </header>
                 </section>
 

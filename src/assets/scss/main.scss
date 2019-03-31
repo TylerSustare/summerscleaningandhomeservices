@@ -27,10 +27,17 @@
 ));
 
 /* Basic */
-	.image{
 
+	.logoCentre{
+		@media only screen and (max-width: 800px) {
+		padding-bottom: 4px;
+		max-width: 80vw;
+		}
+		@media only screen and (min-width: 801px) {
+		padding-bottom: 4px;
+		max-width: 50vw;
+		}
 	}
-
 	.centre{
 		@media only screen and (max-width: 800px) {
 		padding-bottom: 40px;
