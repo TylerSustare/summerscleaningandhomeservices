@@ -46,7 +46,7 @@ class Homepage extends React.Component {
                     {/* <div className="column"> */}
                     {
                         <div className="outer">
-                            <span className="centre"><img src={LogoA} alt="logo" height="100px" /></span>
+                            <div className="centre"><img className="centre" src={LogoA} alt="logo" /></div>
                         </div>
                     }
                     <div className="outer">
