@@ -58,24 +58,13 @@ class Homepage extends React.Component {
                                     showThumbs={false}
                                 >
                                     {/* before and after pictures */}
-                                    <div className="rotate">
-                                        <img src={car1} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={car2} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={car3} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={car4} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={car5} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={car6} />
-                                    </div>
+
+                                    <img src={car1} />
+                                    <img src={car2} />
+                                    <img src={car3} />
+                                    <img src={car4} />
+                                    <img src={car5} />
+                                    <img src={car6} />
                                     {/* some pictures of the inside of a house?  */}
                                     <div className="rotate">
                                         <img src={image3} />
