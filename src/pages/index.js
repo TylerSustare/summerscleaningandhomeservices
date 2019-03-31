@@ -107,13 +107,13 @@ class Homepage extends React.Component {
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <span className="image fit"><img src={image2} alt="" /></span>
-                        </div>
-                        <div className="col-6">
                             <header className="major">
                                 <h2>Free Estimates!!!</h2>
                             </header>
                             <p>At Summer's Cleaning and Home Services you are not just another number, you become part of our family. We treat you and your home how we would want to be treated and how we would want our home cared for. With hard work, honesty, and a level of service that surpasses all of our competitors standards we have managed to become a number one family owned industry leader. We are not your "typical" cleaning service. We meet all of your home care needs by offering Construction Cleans, Deep Cleans, Move Out/In cleans, Monthly cleans, bi-weekly cleans, weekly cleans, vacation rentals, and  air bnb rentals, as well as offering handyman services from fixing a leaky pipe to installing new blinds. We also offer snow removal, gutter cleaning, security checks you name it! If you have a need we can meet it! We become your eyes and ears for your home when you are not able to. Need a service we don't provide? We will work with our trusted business partner we have established over the years and get you taken care of. One call one bill!</p>
+                        </div>
+                        <div className="col-6">
+                            <span className="image fit"><img src={image2} alt="" /></span>
                         </div>
                     </div>
                 </section>
