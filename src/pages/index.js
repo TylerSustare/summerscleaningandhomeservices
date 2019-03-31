@@ -42,58 +42,45 @@ class Homepage extends React.Component {
                 <Helmet title={siteTitle} />
 
                 <section>
-                    <div className="grid-wrapper">
-                        <div className="col-12">
-                            {
-                                <span className="centre"><img src={LogoA} alt="logo" height="150px" /></span>
-                            }
-                            <div className="centre">
-                                <Carousel
-                                    autoPlay={true}
-                                    interval={1500}
-                                    infiniteLoop={true}
-                                    dynamicHeight={true}
-                                    showArrows={false}
-                                    width="50vw"
-                                    showThumbs={false}
-                                >
-                                    {/* before and after pictures */}
+                    {/* <div className="grid-wrapper"> */}
+                    {/* <div className="column"> */}
+                    {
+                        <div className="outer">
+                            <span className="centre"><img src={LogoA} alt="logo" height="100px" /></span>
+                        </div>
+                    }
+                    <div className="outer">
+                        <div className="centre">
+                            <Carousel
+                                autoPlay={true}
+                                interval={1500}
+                                infiniteLoop={true}
+                                dynamicHeight={true}
+                                showArrows={false}
+                                showThumbs={false}
+                            >
+                                {/* before and after pictures */}
 
-                                    <img src={car1} />
-                                    <img src={car2} />
-                                    <img src={car3} />
-                                    <img src={car4} />
-                                    <img src={car5} />
-                                    <img src={car6} />
-                                    {/* some pictures of the inside of a house?  */}
-                                    <div className="rotate">
-                                        <img src={image3} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={image4} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={image5} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={image6} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={image7} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={image8} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={image9} />
-                                    </div>
-                                    <div className="rotate">
-                                        <img src={image10} />
-                                    </div>
-                                </Carousel>
-                            </div>
+                                <img src={car1} />
+                                <img src={car2} />
+                                <img src={car3} />
+                                <img src={car4} />
+                                <img src={car5} />
+                                <img src={car6} />
+                                {/* some pictures of the inside of a house?  */}
+                                <img src={image3} />
+                                <img src={image4} />
+                                <img src={image5} />
+                                <img src={image6} />
+                                <img src={image7} />
+                                <img src={image8} />
+                                <img src={image9} />
+                                <img src={image10} />
+                            </Carousel>
                         </div>
                     </div>
+                    {/* </div> */}
+                    {/* </div> */}
                 </section>
 
                 <section id="four" className="main style2 special">
@@ -112,9 +99,7 @@ class Homepage extends React.Component {
 </p>
                         </div>
                         <div className="col-6">
-                            <div className="rotate">
-                                <span className="image fit"><img src={image1} alt="" /></span>
-                            </div>
+                            <span className="image fit"><img src={image1} alt="" /></span>
                         </div>
                     </div>
                 </section>
@@ -122,9 +107,7 @@ class Homepage extends React.Component {
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <div className="rotate">
-                                <span className="image fit"><img src={image2} alt="" /></span>
-                            </div>
+                            <span className="image fit"><img src={image2} alt="" /></span>
                         </div>
                         <div className="col-6">
                             <header className="major">
