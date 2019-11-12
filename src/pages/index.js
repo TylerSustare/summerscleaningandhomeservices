@@ -25,16 +25,25 @@ import image8 from '../assets/images/image8.jpeg'
 import image9 from '../assets/images/image9.jpeg'
 import image10 from '../assets/images/image10.jpeg'
 import LogoA from '../assets/images/Logo.png';
+import UC from '../assets/images/u-c.jpg';
 
 class Homepage extends React.Component {
-    /* no payment
+    /* no payment */
     render() {
         return (
-            <img src="https://www.jotajoti.info/wp-content/uploads/2018/08/under-construction_geek_man_01.png" width="500px" />
+            <img src={UC} style={{
+                top: 0,
+                left: 0,
+                height: 'auto',
+                position: 'absolute',
+                width: '100%',
+                maxWidth: '100%',
+                maxHeight:'100%'
+            }} />
         )
-    }*/
+    }
     /* payment */
-    render() {
+    xrender() {
         const siteTitle = "Summer's Cleaning and Home Services";
 
         return (
@@ -161,5 +170,6 @@ class Homepage extends React.Component {
         );
     }
 }
+
 
 export default Homepage;

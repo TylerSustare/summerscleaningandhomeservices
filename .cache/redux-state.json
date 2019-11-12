@@ -648,26 +648,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Site": {
-      "siteMetadata": {
-        "title": "Gatsby Starter - Photon",
-        "author": "Hunter Chang",
-        "description": "A Gatsby.js Starter based on Photon by HTML5 UP"
-      },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-03-31T19:55:24.640Z",
-      "id": "Site",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "75016b469ec4b63e8037e6ff97e1b8b1",
-        "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
     "d1bfa8c3-e214-5ed2-a04d-e4035337a831": {
       "resolve": "/Users/tsustare/src/projects/summerscleaningandhomeservices/node_modules/gatsby-plugin-page-creator",
       "id": "d1bfa8c3-e214-5ed2-a04d-e4035337a831",
@@ -768,6 +748,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Starter - Photon",
+        "author": "Hunter Chang",
+        "description": "A Gatsby.js Starter based on Photon by HTML5 UP"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-11-12T06:08:07.833Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3f60a85cb4fc3a0fb6c441743f6e34b2",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -831,7 +831,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d7cc51cb821de87d174a6461493fde50"
+    "PLUGINS_HASH": "695a0479d6ab6d0a3e3db7432273a1be"
   },
   "componentDataDependencies": {
     "nodes": {},
