@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/tsustare/src/projects/summerscleaningandhomeservices/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/tsustare/src/projects/summerscleaningandhomeservices/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4d0209660245a92a09539562dcaa7231",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -754,17 +745,35 @@
         "author": "Hunter Chang",
         "description": "A Gatsby.js Starter based on Photon by HTML5 UP"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-11-12T06:08:07.833Z",
+      "buildTime": "2019-11-20T04:27:18.976Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3f60a85cb4fc3a0fb6c441743f6e34b2",
+        "contentDigest": "7f03dccce5e41b58a11f4bd6cea50eae",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/tsustare/src/projects/summerscleaningandhomeservices/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/tsustare/src/projects/summerscleaningandhomeservices/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7efa711e24368b905f2595e552044441",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
         "owner": "internal-data-bridge"
       }
     },
@@ -831,7 +840,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "695a0479d6ab6d0a3e3db7432273a1be"
+    "PLUGINS_HASH": "abd18de3b111cec9cadbcc277f229d58"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -841,13 +850,10 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/tsustare/src/projects/summerscleaningandhomeservices/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/tsustare/src/projects/summerscleaningandhomeservices/.cache/dev-404-page.js"
-    },
     "/Users/tsustare/src/projects/summerscleaningandhomeservices/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/tsustare/src/projects/summerscleaningandhomeservices/src/pages/404.js"
@@ -855,6 +861,10 @@
     "/Users/tsustare/src/projects/summerscleaningandhomeservices/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/tsustare/src/projects/summerscleaningandhomeservices/src/pages/index.js"
+    },
+    "/Users/tsustare/src/projects/summerscleaningandhomeservices/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/tsustare/src/projects/summerscleaningandhomeservices/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {}

@@ -28,22 +28,7 @@ import LogoA from '../assets/images/Logo.png';
 import UC from '../assets/images/u-c.jpg';
 
 class Homepage extends React.Component {
-    /* no payment */
     render() {
-        return (
-            <img src={UC} style={{
-                top: 0,
-                left: 0,
-                height: 'auto',
-                position: 'absolute',
-                width: '100%',
-                maxWidth: '100%',
-                maxHeight:'100%'
-            }} />
-        )
-    }
-    /* payment */
-    xrender() {
         const siteTitle = "Summer's Cleaning and Home Services";
 
         return (
@@ -51,45 +36,45 @@ class Homepage extends React.Component {
                 <Helmet title={siteTitle} />
 
                 <section>
-                    {/* <div className="grid-wrapper"> */}
-                    {/* <div className="column"> */}
-                    {
-                        <div className="outer">
-                            <div className="logoCentre"><img className="logoCentre" src={LogoA} alt="logo" /></div>
-                        </div>
-                    }
-                    <div className="outer">
-                        <div className="centre">
-                            <Carousel
-                                autoPlay={true}
-                                interval={1500}
-                                infiniteLoop={true}
-                                dynamicHeight={true}
-                                showArrows={false}
-                                showThumbs={false}
-                            >
-                                {/* before and after pictures */}
+                    <div className="grid-wrapper">
+                        <div className="column">
+                            {
+                                <div className="outer">
+                                    <div className="logoCentre"><img className="logoCentre" src={LogoA} alt="logo" /></div>
+                                </div>
+                            }
+                            <div className="outer">
+                                <div className="centre">
+                                    <Carousel
+                                        autoPlay={true}
+                                        interval={1500}
+                                        infiniteLoop={true}
+                                        dynamicHeight={true}
+                                        showArrows={false}
+                                        showThumbs={false}
+                                    >
+                                        {/* before and after pictures */}
 
-                                <img src={car1} />
-                                <img src={car2} />
-                                <img src={car3} />
-                                <img src={car4} />
-                                <img src={car5} />
-                                <img src={car6} />
-                                {/* some pictures of the inside of a house?  */}
-                                <img src={image3} />
-                                <img src={image4} />
-                                <img src={image5} />
-                                <img src={image6} />
-                                <img src={image7} />
-                                <img src={image8} />
-                                <img src={image9} />
-                                <img src={image10} />
-                            </Carousel>
+                                        <img src={car1} />
+                                        <img src={car2} />
+                                        <img src={car3} />
+                                        <img src={car4} />
+                                        <img src={car5} />
+                                        <img src={car6} />
+                                        {/* some pictures of the inside of a house?  */}
+                                        <img src={image3} />
+                                        <img src={image4} />
+                                        <img src={image5} />
+                                        <img src={image6} />
+                                        <img src={image7} />
+                                        <img src={image8} />
+                                        <img src={image9} />
+                                        <img src={image10} />
+                                    </Carousel>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    {/* </div> */}
-                    {/* </div> */}
                 </section>
 
                 <section id="four" className="main style2 special">
